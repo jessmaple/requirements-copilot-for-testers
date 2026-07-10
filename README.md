@@ -1,2 +1,2 @@
 # requirements-copilot-for-testers
-An AI-powered assistant that helps QA engineers turn messy requirements into structured test ideas and checks
+An AI-powered assistant that helps QA engineers turn messy requirements, SOPs, and user stories into structured test ideas, edge cases, and data validation checks. It’s designed for real-world QA workflows where documentation is incomplete, scattered across systems, or constantly changing, and testers need a fast way to extract test scenarios without losing domain context
