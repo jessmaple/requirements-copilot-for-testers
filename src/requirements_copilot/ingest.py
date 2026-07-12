@@ -3,3 +3,10 @@ from pathlib import Path
 
 SAMPLE_DOCS_DIR = Path("data/sample_docs")
 #Points to the folder
+
+def load_documents() -> list[str]:
+    texts = []
+    for path in SAMPLE_DOCS_DIR.glob("*.txt"):
+        with path.open("r", encoding="utf-8") as f:
+            texts.append(f.read())
+    return texts 
